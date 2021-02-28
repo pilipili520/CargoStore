@@ -1,102 +1,98 @@
-**¸ù¾ÝÖÇ½Ü¿ÎÌÃpetstoreÊÓÆµÑ§Ï°ºó´´×öµÄ  
-bitµÄjava¼ÆËã»úÑ¡ÐÞ¿ÎÏîÄ¿ËùÌá½»¹ýµÄ**  
+**æ ¹æ®æ™ºæ°è¯¾å ‚petstoreè§†é¢‘å­¦ä¹ åŽåˆ›åšçš„  
+bitçš„javaè®¡ç®—æœºé€‰ä¿®è¯¾é¡¹ç›®æ‰€æäº¤è¿‡çš„**  
 
-**1** **³ÌÐòµÄÔËÐÐ»·¾³¡¢°²×°²½Öè**
+**1** **ç¨‹åºçš„è¿è¡ŒçŽ¯å¢ƒã€å®‰è£…æ­¥éª¤**
 
-£¨1£©**ÔËÐÐ»·¾³**£ºÀýÈçJDK 1.8 
+ï¼ˆ1ï¼‰**è¿è¡ŒçŽ¯å¢ƒ**ï¼šä¾‹å¦‚JDK 1.8 
 
-£¨2£©**³ÌÐòµÄ×é³É²¿·Ý**£ºµÚÈý·½¿âmysql-connector-java-8.0.13.jar
+ï¼ˆ2ï¼‰**ç¨‹åºçš„ç»„æˆéƒ¨ä»½**ï¼šç¬¬ä¸‰æ–¹åº“mysql-connector-java-8.0.13.jar
 
-£¨3£©**°²×°²½Öè**£ºÈçºÎÔÚÒ»Ì¨¡°¸É¾»¡±µÄ¼ÆËã»úÉÏÔËÐÐÄãµÄ³ÌÐò£¿
+ï¼ˆ3ï¼‰**å®‰è£…æ­¥éª¤**ï¼šå¦‚ä½•åœ¨ä¸€å°â€œå¹²å‡€â€çš„è®¡ç®—æœºä¸Šè¿è¡Œä½ çš„ç¨‹åºï¼Ÿ
 
-?     Ê¾Àý£º
+   ç¤ºä¾‹ï¼š
 
-?     1£© °²×°JRE 1.8
+ 1ï¼‰ å®‰è£…JRE 1.8
 
-?     2£©½«³ÌÐòjarÎÄ¼þ¸´ÖÆµ½¼ÆËã»úÉÏ
+2ï¼‰å°†ç¨‹åºjaræ–‡ä»¶å¤åˆ¶åˆ°è®¡ç®—æœºä¸Š
 
-?     3£©°²×°MySQLÊý¾Ý¿âÍøÖ·ÈçÏÂ£º
-
+3ï¼‰å®‰è£…MySQLæ•°æ®åº“ç½‘å€å¦‚ä¸‹ï¼š
 https://dev.mysql.com/downloads/windows/installer/5.7.htm
 
-4)×¢²árootÃÜÂë×îºÃÉèÎª123456ÕâÑù¾Í²»ÓÃ¸ÄÅäÖÃÎÄ¼þÁË
+4)æ³¨å†Œrootå¯†ç æœ€å¥½è®¾ä¸º123456è¿™æ ·å°±ä¸ç”¨æ”¹é…ç½®æ–‡ä»¶äº†ï¼Œä½†ä½ è¦è­¦æƒ•è¿™æ ·å¯ä»¥çˆ†ç ´å¯†ç æ”»å‡»ï¼Œæœ¬é¡¹ç›®æ˜¯ç”¨æ¥å­¦ä¹ javaæ¡Œé¢åº”ç”¨è®¾è®¡å’Œæ•°æ®åº“çš„ï¼Œæ‰€ä»¥æ–¹ä¾¿æ“ä½œè€Œå·²
 
-5)ÓÃÎÄ±¾±à¼­Æ÷´ò¿ªdbÎÄ¼þÏÂµÄ£¬¸´ÖÆÈ«²¿ÄÚÈÝ                       
+5)ç”¨æ–‡æœ¬ç¼–è¾‘å™¨æ‰“å¼€dbæ–‡ä»¶ä¸‹çš„ï¼Œå¤åˆ¶å…¨éƒ¨å†…å®¹                       
 
-6£©´ò¿ªMySQL Command Line Client£¬½«½Å±¾ÎÄ¼þÊäÈë
+6ï¼‰æ‰“å¼€MySQL Command Line Clientï¼Œå°†è„šæœ¬æ–‡ä»¶è¾“å…¥
 
-7£©Ë«»÷jarÎÄ¼þ
+7ï¼‰åŒå‡»jaræ–‡ä»¶
 
-**2** **³ÌÐò¿ª·¢Æ½Ì¨**
+**2** **ç¨‹åºå¼€å‘å¹³å°**
+å¼€å‘çŽ¯å¢ƒï¼šEclipse IDE for Java DevelopersVersion: Photon Release (4.8.0)
 
-?     £¨1£©´úÂëÐÐÊý£º800(´¿ÊÖÐ´)
+**4** **ç¨‹åºç®—æ³•è¯´æ˜ŽåŠé¢å‘å¯¹è±¡å®žçŽ°æŠ€æœ¯æ–¹æ¡ˆ**
 
-?     £¨2£©¿ª·¢»·¾³£ºEclipse IDE for Java DevelopersVersion: Photon Release (4.8.0)
+ï¼ˆ1ï¼‰ ç”¨åˆ°æ•°æ®ç»“æž„HashMapï¼ŒæŸ¥æ‰¾çš„æ—¶é—´å¤æ‚åº¦ä¸ºO(1)
 
-**4** **³ÌÐòËã·¨ËµÃ÷¼°ÃæÏò¶ÔÏóÊµÏÖ¼¼Êõ·½°¸**
+ï¼ˆ2ï¼‰æ•°æ®ç»“æž„å’Œç®—æ³•çš„é¢å‘å¯¹è±¡å®žçŽ°
 
-£¨1£© ÓÃµ½Êý¾Ý½á¹¹HashMap£¬²éÕÒµÄÊ±¼ä¸´ÔÓ¶ÈÎªO(1)
+å®žç‰©ç±»å››å¤§ä¸»ç±»
 
-£¨2£©Êý¾Ý½á¹¹ºÍËã·¨µÄÃæÏò¶ÔÏóÊµÏÖ
+çª—å£ç±»çš„UML
 
-ÊµÎïÀàËÄ´óÖ÷Àà
+**5** **æŠ€æœ¯äº®ç‚¹ã€å…³é”®ç‚¹åŠå…¶è§£å†³æ–¹æ¡ˆ**
 
-´°¿ÚÀàµÄUML
+ä½¿ç”¨MySQLæ¥ä¿å­˜æ•°æ®ï¼Œå¹¶æŠŠ**Statement**çš„æ•°æ®åº“æ“ä½œæ”¹ä¸ºç”¨**PreparedStatement**å®žçŽ°é˜²sqlæ³¨å…¥
 
-**5** **¼¼ÊõÁÁµã¡¢¹Ø¼üµã¼°Æä½â¾ö·½°¸**
+æˆ‘åº”ç”¨äº†Martin Fowleråˆ†å±‚æž¶æž„ç®€åŒ–ç‰ˆæ¥è®¾è®¡æ•´ä¸ªç¨‹åº
 
-Ê¹ÓÃMySQLÀ´±£´æÊý¾Ý£¬²¢°Ñ**Statement**µÄÊý¾Ý¿â²Ù×÷¸ÄÎªÓÃ**PreparedStatement**ÊµÏÖ·Àsql×¢Èë
+å¤§é‡ä½¿ç”¨Psæ¥ç¾ŽåŒ–å›¾ç‰‡
 
-ÎÒÓ¦ÓÃÁËMartin Fowler·Ö²ã¼Ü¹¹¼ò»¯°æÀ´Éè¼ÆÕû¸ö³ÌÐò
+å¤§é‡çš„å•å…ƒæµ‹è¯•
 
-´óÁ¿Ê¹ÓÃPsÀ´ÃÀ»¯Í¼Æ¬
+é‡åˆ°çš„æŠ€æœ¯éš¾ç‚¹åŠå¯¹åº”çš„è§£å†³æ–¹æ¡ˆï¼š
 
-´óÁ¿µÄµ¥Ôª²âÊÔ
+**é—®é¢˜æè¿°ï¼š**MySQLçš„ä½¿ç”¨ä¸Šé¢**è¿žæŽ¥æ•°æ®åº“çš„æ—¶å€™æ€»æ˜¯æŠ¥é”™â€œæ—¶åŒºä¸åŒæ­¥â€**
 
-Óöµ½µÄ¼¼ÊõÄÑµã¼°¶ÔÓ¦µÄ½â¾ö·½°¸£º
+**æœ€ç»ˆçš„è§£å†³æ–¹æ¡ˆï¼š**`ä½¿ç”¨gmt+8æ—¶åŒºï¼Œéœ€è¦å†™æˆGMT%2B`
 
-**ÎÊÌâÃèÊö£º**MySQLµÄÊ¹ÓÃÉÏÃæ**Á¬½ÓÊý¾Ý¿âµÄÊ±ºò×ÜÊÇ±¨´í¡°Ê±Çø²»Í¬²½¡±**
+**é—®é¢˜æè¿°ï¼šMySQLä¸­éœ€è¦ç”¨setStringç»‘å®šå‚æ•°ï¼Œä½†æ˜¯è¿™ä¸ªè¯­å¥ä¸èƒ½æ”¾è¿›tryçš„æ‹¬å·äº†è¿›è¡Œè‡ªåŠ¨èµ„æºç®¡ç†ï¼Œä½†æ˜¯æœ‰äº†è¿™æ¡è¯­å¥æ‰èƒ½éåŽ†ç»“æžœé›†.**
 
-**×îÖÕµÄ½â¾ö·½°¸£º**`Ê¹ÓÃgmt+8Ê±Çø£¬ÐèÒªÐ´³ÉGMT%2B`
+**æœ€ç»ˆçš„è§£å†³æ–¹æ¡ˆ:æ”¾å¼ƒtryçš„è‡ªåŠ¨èµ„æºç®¡ç†ï¼Œæ”¹ç”¨ä¼ ç»Ÿçš„try-catch-finally.**
 
-**ÎÊÌâÃèÊö£ºMySQLÖÐÐèÒªÓÃsetString°ó¶¨²ÎÊý£¬µ«ÊÇÕâ¸öÓï¾ä²»ÄÜ·Å½øtryµÄÀ¨ºÅÁË½øÐÐ×Ô¶¯×ÊÔ´¹ÜÀí£¬µ«ÊÇÓÐÁËÕâÌõÓï¾ä²ÅÄÜ±éÀú½á¹û¼¯.**
+**é—®é¢˜æè¿°ï¼šå„ç§çš„pathéƒ½æŠ¥æ‰¾ä¸åˆ°**
 
-**×îÖÕµÄ½â¾ö·½°¸:·ÅÆútryµÄ×Ô¶¯×ÊÔ´¹ÜÀí£¬¸ÄÓÃ´«Í³µÄtry-catch-finally.**
+**æœ€ç»ˆçš„è§£å†³æ–¹æ¡ˆï¼šæŠŠjaråŒ…éƒ½åˆ äº†ï¼ŒæŠŠconnectoråˆ çš„å¹²å‡€äº›ï¼Œé‡æ–°è£…çš„**
 
-**ÎÊÌâÃèÊö£º¸÷ÖÖµÄpath¶¼±¨ÕÒ²»µ½**
+**é—®é¢˜æè¿°ï¼šPreparedStatement ç±»çš„setDateæ–¹æ³•çš„ç¬¬äºŒä¸ªå‚æ•°æ˜¯sqlçš„å¼ºåˆ¶è½¬æ¢ä¹Ÿä¸æˆ**
 
-**×îÖÕµÄ½â¾ö·½°¸£º°Ñjar°ü¶¼É¾ÁË£¬°ÑconnectorÉ¾µÄ¸É¾»Ð©£¬ÖØÐÂ×°µÄ**
+**æœ€ç»ˆçš„è§£å†³æ–¹æ¡ˆï¼šå…ˆç”¨ä¸€ä¸ªutilæ¥èŽ·å–å½“å‰çš„æ—¶é—´ï¼Œç„¶åŽå†åˆ›å»ºsqlçš„date å®žä¾‹å¯¹è±¡ï¼ŒæŠŠutilå¾—åˆ°çš„å½“å‰æ—¶é—´æ”¾å…¥sqlçš„é‡Œé¢ã€‚**
 
-**ÎÊÌâÃèÊö£ºPreparedStatement ÀàµÄsetDate·½·¨µÄµÚ¶þ¸ö²ÎÊýÊÇsqlµÄÇ¿ÖÆ×ª»»Ò²²»³É**
+**é—®é¢˜æè¿°ï¼šå¤šä¸ªç”¨æˆ·å¦‚æžœåŒæ—¶ä¸‹è®¢å•çš„è¯Dateä¸å¤Ÿç²¾ç¡®ï¼Œä¼šäº§ç”Ÿéº»çƒ¦ã€‚**
 
-**×îÖÕµÄ½â¾ö·½°¸£ºÏÈÓÃÒ»¸öutilÀ´»ñÈ¡µ±Ç°µÄÊ±¼ä£¬È»ºóÔÙ´´½¨sqlµÄdate ÊµÀý¶ÔÏó£¬°ÑutilµÃµ½µÄµ±Ç°Ê±¼ä·ÅÈësqlµÄÀïÃæ¡£**
+**æœ€ç»ˆçš„è§£å†³æ–¹æ¡ˆï¼šç”¨Timestampæ¥ä»£æ›¿Dateç±»ã€‚**
 
-**ÎÊÌâÃèÊö£º¶à¸öÓÃ»§Èç¹ûÍ¬Ê±ÏÂ¶©µ¥µÄ»°Date²»¹»¾«È·£¬»á²úÉúÂé·³¡£**
+**é—®é¢˜æè¿°ï¼š**image=ImageIO.*read*(**new** File("images/night.jpg"));è¿™æ ·å°±ä¸€ç›´æŠ¥é”™â€œCanâ€™t read input file â€,åˆ°çŽ°åœ¨ä¸ºæ­¢æˆ‘ä¹Ÿä¸çŸ¥é“ä¸ºå•¥ã€‚
 
-**×îÖÕµÄ½â¾ö·½°¸£ºÓÃTimestampÀ´´úÌæDateÀà¡£**
+**æœ€ç»ˆçš„è§£å†³æ–¹æ¡ˆï¼šæ ¹æ®ç™¾åº¦çš„å¤§ä½¬è¯´çš„æ”¹æˆè¿™æ ·ï¼š**Image image = javax.imageio.ImageIO.*read*(getClass().getResource("/bgpicture/night.jpg"));å°±æˆäº†ï¼why!!!!!!!!!!
 
-**ÎÊÌâÃèÊö£º**image=ImageIO.*read*(**new** File("images/night.jpg"));ÕâÑù¾ÍÒ»Ö±±¨´í¡°Can¡¯t read input file ¡±,µ½ÏÖÔÚÎªÖ¹ÎÒÒ²²»ÖªµÀÎªÉ¶¡£
+**é—®é¢˜æè¿°ï¼šæ²¡æœ‰è€ƒè™‘åˆ°è´­ç‰©è½¦ä¸Šé¢çš„è´­ä¹°æ•°é‡å¯ä»¥ç”¨æˆ·è¾“å…¥ï¼Œæ‰€ä»¥å¯èƒ½è¾“å…¥éžæ³•ã€‚**
 
-**×îÖÕµÄ½â¾ö·½°¸£º¸ù¾Ý°Ù¶ÈµÄ´óÀÐËµµÄ¸Ä³ÉÕâÑù£º**Image image = javax.imageio.ImageIO.*read*(getClass().getResource("/bgpicture/night.jpg"));¾Í³ÉÁË£¡why!!!!!!!!!!
-
-**ÎÊÌâÃèÊö£ºÃ»ÓÐ¿¼ÂÇµ½¹ºÎï³µÉÏÃæµÄ¹ºÂòÊýÁ¿¿ÉÒÔÓÃ»§ÊäÈë£¬ËùÒÔ¿ÉÄÜÊäÈë·Ç·¨¡£**
-
-**×îÖÕµÄ½â¾ö·½°¸:Ìí¼ÓÒì³£´¦Àí£¬²¢¸æÖªÓÃ»§**
+**æœ€ç»ˆçš„è§£å†³æ–¹æ¡ˆ:æ·»åŠ å¼‚å¸¸å¤„ç†ï¼Œå¹¶å‘ŠçŸ¥ç”¨æˆ·**
 
  
 
-**6** **¼òÒª¿ª·¢¹ý³Ì**
+**6** **ç®€è¦å¼€å‘è¿‡ç¨‹**
 
-11ÔÂ19-22ºÅ È·¶¨ÏîÄ¿Îª¹ºÂòÔÓ»õÏµÍ³£¬Íê³ÉÐèÇó·ÖÎö£¬¹¦ÄÜÉè¼Æ£¬ÓÃ»§¿ÉÒÔµÇÂ¼£¬²éÑ¯ÉÌÆ·£¬Ìí¼Óµ½¹ºÎï³µ£¬²é¿´¹ºÎï³µ£¬²é¿´¶©µ¥£¨±£´æÔÚÊý¾Ý¿âÀï£©£¬ÏÂ¶©µ¥£¬Ô­ÐÍÉè¼Æ£¬ÃüÃûÎªCargoStore
+11æœˆ19-22å· ç¡®å®šé¡¹ç›®ä¸ºè´­ä¹°æ‚è´§ç³»ç»Ÿï¼Œå®Œæˆéœ€æ±‚åˆ†æžï¼ŒåŠŸèƒ½è®¾è®¡ï¼Œç”¨æˆ·å¯ä»¥ç™»å½•ï¼ŒæŸ¥è¯¢å•†å“ï¼Œæ·»åŠ åˆ°è´­ç‰©è½¦ï¼ŒæŸ¥çœ‹è´­ç‰©è½¦ï¼ŒæŸ¥çœ‹è®¢å•ï¼ˆä¿å­˜åœ¨æ•°æ®åº“é‡Œï¼‰ï¼Œä¸‹è®¢å•ï¼ŒåŽŸåž‹è®¾è®¡ï¼Œå‘½åä¸ºCargoStore
 
-1.Êý¾Ý¿âÉè¼Æ(Êý¾Ý¿âERÄ£ÐÍÈçÏÂ)
+1.æ•°æ®åº“è®¾è®¡(æ•°æ®åº“ERæ¨¡åž‹å¦‚ä¸‹)
 
-2.¼Ü¹¹Éè¼Æ£º±íÊ¾²ã(Swing)->Êý¾Ý³Ö¾Ã²ã(JDBC)
+2.æž¶æž„è®¾è®¡ï¼šè¡¨ç¤ºå±‚(Swing)->æ•°æ®æŒä¹…å±‚(JDBC)
 
-3.ÏµÍ³Éè¼Æ:
+3.ç³»ç»Ÿè®¾è®¡:
 
-¢ÙÊý¾Ý³Ö¾Ã²ãµÄÉè¼Æ£º²ÉÓÃDAO£¨Êý¾Ý·ÃÎÊ¶ÔÏó£©Éè¼ÆÄ£Ê½£¬Êý¾Ý¿âÖÐµÄÃ¿Ò»¸öÊý¾Ý±í£¬¶ÔÓ¦Ò»¸öDAO¶ÔÏó£¬Ã¿Ò»¸öDAO¶ÔÏóÖÐÓÐ·ÃÎÊÊý¾Ý¿âµÄCRUDËÄÀà²Ù×÷
+â‘ æ•°æ®æŒä¹…å±‚çš„è®¾è®¡ï¼šé‡‡ç”¨DAOï¼ˆæ•°æ®è®¿é—®å¯¹è±¡ï¼‰è®¾è®¡æ¨¡å¼ï¼Œæ•°æ®åº“ä¸­çš„æ¯ä¸€ä¸ªæ•°æ®è¡¨ï¼Œå¯¹åº”ä¸€ä¸ªDAOå¯¹è±¡ï¼Œæ¯ä¸€ä¸ªDAOå¯¹è±¡ä¸­æœ‰è®¿é—®æ•°æ®åº“çš„CRUDå››ç±»æ“ä½œ
 
-¢Ú±íÊ¾²ã: Ö÷ÒªÊ¹ÓÃSwing¼¼Êõ£¬Ã¿Ò»¸ö½çÃæ¾ÍÊÇÒ»¸ö´°¿Ú¶ÔÏó¡£ÔÚ±íÊ¾²ãÖÐ¸÷¸ö´°¿ÚÊÇÒÀ¾ÝÔ­ÐÍÉè¼Æ¶øÀ´µÄ¡£CargoStoreÏîÄ¿,loginFrameÓÃ»§µÇÂ¼CartFrame¹ºÎï³µ´°¿ÚºÍProductListFrameÉÌÆ·ÁÐ±í´°¿Ú£¬ËüÃÇÓÐ¹²Í¬µÄ¸¸ÀàMyFrame£¬MyFrameÀàÊÇ¸ù¾Ý×Ô¼ºµÄÏîÄ¿Çé¿ö½øÐÐµÄ·â×°.
+â‘¡è¡¨ç¤ºå±‚: ä¸»è¦ä½¿ç”¨SwingæŠ€æœ¯ï¼Œæ¯ä¸€ä¸ªç•Œé¢å°±æ˜¯ä¸€ä¸ªçª—å£å¯¹è±¡ã€‚åœ¨è¡¨ç¤ºå±‚ä¸­å„ä¸ªçª—å£æ˜¯ä¾æ®åŽŸåž‹è®¾è®¡è€Œæ¥çš„ã€‚CargoStoreé¡¹ç›®,loginFrameç”¨æˆ·ç™»å½•CartFrameè´­ç‰©è½¦çª—å£å’ŒProductListFrameå•†å“åˆ—è¡¨çª—å£ï¼Œå®ƒä»¬æœ‰å…±åŒçš„çˆ¶ç±»MyFrameï¼ŒMyFrameç±»æ˜¯æ ¹æ®è‡ªå·±çš„é¡¹ç›®æƒ…å†µè¿›è¡Œçš„å°è£….
 
 
