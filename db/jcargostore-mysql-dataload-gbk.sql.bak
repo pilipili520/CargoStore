@@ -1,0 +1,57 @@
+/*==============================================================*/
+/* DBMS name:      MySQL 8.0                                    */
+/* 王子瑜 Created on:     2018/11/22 18:55:02                     */
+/*==============================================================*/
+
+use petstore;
+
+/* 用户表数据 */
+INSERT INTO account VALUES('Jinxuliang','521','13681408023@163.com','金旭亮', '北京海淀区', '北京', '中国',  '18811588888');
+INSERT INTO account VALUES('Student','521','wang@yourdomain.com','Tony', '901 San Antonio Road', 'Palo Alto', 'USA',  '555-555-5555');
+
+/* 商品表数据 */
+INSERT INTO product VALUES ('FI-SW-01','宠物','神仙鱼', 'Angelfish', 'fish1.jpg', '来自澳大利亚的咸水鱼', 650, 400);
+INSERT INTO product VALUES ('FI-SW-02','宠物','虎鲨', 'Tiger Shark','fish4.gif', '来自澳大利亚的咸水鱼', 850, 600);
+INSERT INTO product VALUES ('FI-FW-01','宠物','锦鲤', 'Koi','fish3.gif', '来自日本淡水鱼', 150, 120);
+INSERT INTO product VALUES ('FI-FW-02','宠物','金鱼', 'Goldfish','fish2.gif', '来自中国的淡水鱼', 150, 120);
+INSERT INTO product VALUES ('K9-BD-01','宠物','斗牛犬', 'Bulldog','dog2.gif', '来自英国友好的伴侣犬', 1500, 1200);
+INSERT INTO product VALUES ('K9-PO-02','宠物','狮子狗', 'Poodle','dog6.gif', '来自法国可爱狗狗',  1250, 1000);
+INSERT INTO product VALUES ('K9-DL-01','宠物','斑点狗', 'Dalmation','dog5.gif', '有很多斑点的狗狗', 2150, 2000);
+INSERT INTO product VALUES ('K9-RT-01','宠物', '金毛猎犬', 'Golden Retriever','dog1.gif', '很好的伴侣犬', 3800, 3400);
+INSERT INTO product VALUES ('K9-RT-02','宠物', '拉布拉多犬','Labrador Retriever','dog5.gif', '很好的狩猎犬', 3600, 3020);
+INSERT INTO product VALUES ('K9-CW-01','宠物', '吉娃娃', 'Chihuahua','dog4.gif', '性格温顺的狗狗', 1500,  120);
+INSERT INTO product VALUES ('RP-SN-01','宠物','响尾蛇', 'Rattlesnake','lizard3.gif','可怕且危险的动物', 150, 110);
+INSERT INTO product VALUES ('RP-LI-02','宠物','鬣蜥蜴', 'Iguana','lizard2.gif', '可随环境及光线强弱改变体色', 1600, 1203);
+INSERT INTO product VALUES ('FL-DSH-01','宠物','马恩岛猫', 'Manx','cat3.gif', '它能有效地减少老鼠的数量很有好处', 2503, 2120);
+INSERT INTO product VALUES ('FL-DLH-02','宠物','波斯猫', 'Persian','cat1.gif', '非常好的家猫', 3150, 2620);
+INSERT INTO product VALUES ('AV-CB-01','宠物','亚马逊鹦鹉', 'Amazon Parrot','bird4.gif', '寿命长达75年的大鸟', 3150, 3000);
+INSERT INTO product VALUES ('AV-SB-02','宠物','雀科鸣鸟', 'Finch','bird1.gif', '会唱歌的鸟儿', 150, 110);
+
+INSERT INTO product VALUES ('GC-VG-01','蔬菜','白菜', 'Chinese cabbage', 'Chinese cabbage.png', '新鲜翠绿，清甜可口', 16, 14.8);
+INSERT INTO product VALUES ('GC-VG-02','蔬菜','冬瓜', 'white gourd', 'white gourd.png', '圆润饱满，营养丰富', 12, 10.9);
+INSERT INTO product VALUES ('GC-VG-03','蔬菜','菜花', 'cauliflower', 'cauliflower.png', '口感脆爽，风味鲜美', 10, 7.9);
+INSERT INTO product VALUES ('GC-VG-04','蔬菜','花生', 'peanut', 'peanut.png', '肉质饱满，香甜独特', 12, 10.8);
+INSERT INTO product VALUES ('GC-VG-05','蔬菜','小番茄', 'cherry tomato', 'cherry tomato.png', '颗颗饱满透亮，粒粒皮薄多汁', 18, 16.5);
+INSERT INTO product VALUES ('GC-VG-06','蔬菜','紫茄子', 'eggplant', 'eggplant.png', '皮薄多肉，松嫩可口', 8, 6.9);
+INSERT INTO product VALUES ('GC-FU-01','水果','荔枝', 'litchi', 'litchi.png', '脆嫩细腻，清甜多汁', 52, 50);
+INSERT INTO product VALUES ('GC-FU-02','水果','芒果', 'mango', 'mango.png', '果肉饱满，香甜可口', 32, 29.9);
+INSERT INTO product VALUES ('GC-FU-03','水果','水蜜桃', 'juicy peach', 'juicy peach.png', '爽口鲜甜，香味浓郁', 30, 28.5);
+INSERT INTO product VALUES ('GC-FU-04','水果','香蕉', 'banana', 'banana.png', '高地栽培，口感更甜糯', 13, 11.9);
+INSERT INTO product VALUES ('GC-FU-05','水果','樱桃', 'cherry', 'cherry.png', '殷红亮泽，脆甜多汁', 82, 72);
+INSERT INTO product VALUES ('GC-CD-01','糖果','巧克力', 'chocolate', 'chocolate.png', '甄选优质可可豆，口感丝滑细腻', 8.5, 7.2);
+INSERT INTO product VALUES ('GC-CD-02','糖果','糖果大礼包', 'candy gift pack', 'candy gift pack.png', '快乐分享，吃出童年回忆', 100, 89);
+INSERT INTO product VALUES ('GC-CD-03','糖果','糖果罐', 'candy jar', 'candy jar.png', '快乐分享，吃出童年回忆', 80, 59);
+INSERT INTO product VALUES ('GC-DL-01','玩偶','玩偶猫', 'doll cat', 'doll cat.png', '绒毛细腻，蓬松舒适', 50, 48);
+INSERT INTO product VALUES ('GC-DL-02','玩偶','玩偶牛', 'doll cow', 'doll cow.png', '外表可爱，手感舒适', 45, 35);
+INSERT INTO product VALUES ('GC-DL-03','玩偶','玩偶兔', 'doll rabbit', 'doll rabbit.png', '来自英国的朋友，萌萌的表情令人怦然心动', 130, 105);
+INSERT INTO product VALUES ('GC-DL-04','玩偶','玩偶熊', 'doll bear', 'doll bear.png', '听说，可爱的泰迪是送女友的最佳礼物哦', 90, 65);
+INSERT INTO product VALUES ('GC-DL-05','玩偶','玩偶猪', 'doll pig', 'doll pig.png', '短毛绒呆萌小猪，弹力超柔', 35, 29);
+INSERT INTO product VALUES ('GC-UB-01','雨伞','粉色雨伞', 'pink umbrella', 'pink umbrella.png', '可爱的南瓜伞形配上粉嫩的外表，满足你的少女心', 50, 35);
+INSERT INTO product VALUES ('GC-UB-02','雨伞','格子雨伞', 'plaid umbrella', 'plaid umbrella.png', '英伦风格子伞面，谁说雨伞不能高端大气上档次', 50, 35);
+INSERT INTO product VALUES ('GC-UB-03','雨伞','黑色雨伞', 'black umbrella', 'black umbrella.png', '超大的黑色伞面能够有效拒水，加固的伞柄更加实用', 50, 35);
+
+
+
+
+
+
